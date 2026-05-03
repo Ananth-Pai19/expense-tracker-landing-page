@@ -49,12 +49,20 @@ export default function Hero() {
           Private. Personal. Powerful. Like finance tracking should have been all along.
         </p>
         {/* 2. Attach the function to the button's onClick event */}
-        <button 
-          onClick={scrollToHowItWorks}
-          className="bg-white text-[#002244] font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-100 transition-colors shadow-xl"
-        >
-          Dive In
-        </button>
+        <div className="flex flex-col items-center gap-4">
+          <button className="bg-white text-[#002244] font-bold px-8 py-4 rounded-full text-lg hover:bg-blue-100 transition-colors">
+            Dive In
+          </button>
+          <a
+            href="https://lambent-muffin-8e4506.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white text-white font-semibold px-6 py-3 rounded-full text-base hover:bg-white hover:text-[#002244] transition-colors"
+          >
+            View Demo →
+          </a>
+        </div>
+        
       </div>
     </section>
   )

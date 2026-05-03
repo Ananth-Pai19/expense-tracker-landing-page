@@ -31,10 +31,6 @@ export default function Footer() {
             </span>
           </div>
 
-  {/* social icons stay the same */}
-
-  {/* social icons stay the same */}
-
         {/* Social icons */}
         <a href="#" className="text-blue-400 hover:text-white transition-colors">
           {/* X */}
