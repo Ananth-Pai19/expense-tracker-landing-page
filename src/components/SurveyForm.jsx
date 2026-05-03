@@ -6,7 +6,7 @@ export default function SurveyForm() {
   const { sectionRef, sentinelRef, visible } = useFadeIn()
 
   return (
-    <section ref={sectionRef} className="flex flex-col items-center justify-center text-center px-6">
+    <section ref={sectionRef} className="py-24 flex flex-col items-center justify-center text-center px-6">
       <div
         style={{
           transition: 'opacity 0.9s ease, transform 0.9s ease',

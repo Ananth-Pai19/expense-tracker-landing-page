@@ -12,7 +12,7 @@ export default function HowItWorks() {
   const { sectionRef, sentinelRef, visible } = useFadeIn()
 
   return (
-    <section id="how-it-works" ref={sectionRef} className="py-32 flex items-center px-8 md:px-20 gap-16">
+    <section id="how-it-works" ref={sectionRef} className="pt-8 pb-8 flex items-center px-8 md:px-20 gap-16">
 
       {/* Left: image card */}
       <div
